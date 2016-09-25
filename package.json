@@ -1,0 +1,27 @@
+{
+  "name": "madhan",
+  "version": "1.0.0",
+  "description": "Learning react.js ",
+  "main": "index.js",
+  "dependencies": {
+    "babelify": "^7.3.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "watchify": "^3.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [babelify --presets [ react ] ] -o public/js/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infiniterandom/React_001.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/infiniterandom/React_001/issues"
+  },
+  "homepage": "https://github.com/infiniterandom/React_001#readme"
+}
